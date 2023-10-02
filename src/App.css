@@ -1,0 +1,529 @@
+.navbar{
+    flex-direction: column;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2000;
+}
+.navbarOne{
+    width: 100%;
+    background-color: rgb(244, 244, 244);
+    padding: 1.5rem 4rem;
+    justify-content: space-between;
+}
+.navbarTwo{
+    display: flex;
+    margin-top: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+    top: 3rem;
+    width: 100%;
+    padding: 1.5rem 4rem;
+    position: fixed;
+}
+.scrollcolor{
+    background-color:rgb(244, 244, 244) ;
+}
+.atb{
+    gap: 1rem;
+}
+
+.atb span{
+    color: rgb(110, 109, 109);
+    font-size: 18px;
+    cursor: pointer;
+}
+.atb span:hover{
+    color: rgb(65, 65, 247);
+}
+
+.navTab{
+    gap: 1rem;
+}
+.navTab li{
+    color: rgb(110, 109, 109);
+    font-size: 18px;
+    gap: 0.4rem;
+}
+
+.logo{
+    width: 80px;
+}
+
+.navMenu{
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menuItems{
+    gap: 0.7rem;
+}
+.listItems{
+    padding: 0 1rem;
+    cursor: pointer;
+    color: rgb(110, 109, 109);
+}
+.listItems:hover{
+    border-bottom: 1.5px solid red;
+}
+.hamburger{
+    position: fixed;
+    right: 30px;
+    display: none;
+
+}
+.homeSection{
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.primary-heading{
+    font-size: 50px;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+}
+.banner{
+    width: 100%;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.videoBanner{
+    width: 60%;
+    height: 35vh;
+    position: relative;
+    z-index: 1;
+}
+.video{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10rem;
+
+}
+
+.imageBanner{
+    position: absolute;
+    z-index: 2;
+}
+
+.search{
+    margin: 5rem 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+}
+.searchContainer{
+    border: 0.5px solid rgb(177, 175, 175);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.seatCategory{
+    justify-content: space-around;
+    margin: 1.5rem auto;
+    padding: 0.3rem 0rem;
+    border-radius: 10rem;
+    background-color: rgb(235, 234, 234);
+}
+
+.btn1{
+    border: none;
+    padding: 0.5rem 3rem;
+    cursor: pointer;
+    border-radius: 10rem;
+    background-color: rgb(235, 234, 234);
+    margin: 0 0.4rem;
+    transition: 0.4s ease-in-out;
+}
+
+.btn1:hover{
+    background-color: rgb(74, 40, 199);
+    color: white;
+}
+
+
+.toggleIcon{
+    padding: 11px 7px;  
+    background-color:rgb(235, 234, 234) ;
+    border-radius: 2rem;
+    margin-right: 10px;
+}
+.checkInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+
+
+
+
+
+
+
+
+.info-sections{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.info1{
+    width: 100% ;
+    text-align: center;
+}
+.info2{
+    width: 100%;
+    align-items: flex-start;
+    margin-top: 3rem;
+    /* margin-top: 3rem; */
+}
+.infoContent{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    flex: 1;
+    align-items: center;
+    padding-top: 3rem;
+
+}
+
+.visualGraphics{
+    flex: 1;
+    padding: .5rem;
+}
+.visualImg{
+    width: 100%;
+    height: 100%;
+}
+
+
+.support{
+    margin-top: 5rem;
+    width: 100%;
+    /* height: 70vh; */
+
+    background-color: rgb(243, 243, 243);
+}
+.supportHeading{
+    width: 50%;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+
+    align-items: center;
+    margin: 4rem auto;
+}
+
+.supportContent{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+}
+.singleCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 210px;
+    gap: 1.5rem;
+    padding: 30px 15px;
+    background-color: white;
+    border-radius: 7rem;
+    height: 260px;
+
+}
+.iconDiv{
+    margin: 0 auto;
+    padding: 12px;
+    color: white;
+    border-radius: 100%;
+    background-color: rgb(74, 40, 199);
+}
+.lounge{
+    margin-top: 1rem;
+}
+.lounge_content{
+    flex: 1;
+}
+.loungeCard{
+    width: 90%;
+   margin:  auto;
+}
+.innerCard{
+    padding: 10px 1.7rem;
+}
+
+.travelers{
+    width: 100%;
+
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+}
+.travellersContainer{
+    display: flex;
+    gap: 3rem;
+}
+.travelCard{
+    height: 260px;
+    width: 180px;
+    position: relative;
+    
+}
+.countryImg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 8rem;
+    object-fit: cover;
+}
+.travellerImage,.travellerName{
+    position: absolute;
+}
+.popImage{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+.travellerImage{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid rgba(225, 225, 225, 0.637);
+}
+
+.subscribe{
+    display: flex;
+    /* justify-content: center; */
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: rgba(225, 225, 225, 0.637);
+    gap: 1.5rem;
+}
+.email{
+    width: 450px;
+    padding: 10px 6px;
+    border: none;
+    outline: none;
+}
+.btn2{
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(89, 58, 199);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footerContainer{
+    background-color: rgba(225, 225, 225, 0.637);
+    width: 100%;
+
+
+}
+
+.footer{
+    justify-content: space-evenly;
+    display: flex;
+    padding: 0 1rem;
+}
+.footerLogo{
+    width: 80px;
+    height: 60px;
+}
+.iconbox{
+    padding: 10px 4px;
+    border-radius: 5rem;
+    border: 1px solid gray;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.iconbox:hover{
+    color: white;
+    background-color: rgb(89, 58, 199);
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+
+}
+.footerCard{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.socialIcons{
+    display: flex;
+    gap: 0.5rem;
+
+}
+.primary:hover{
+    transform: translateX(7px);
+    transition: 0.4s ease-in-out;
+    background-color: rgb(167, 221, 221);
+    padding: 1px 3px;
+    border-radius: 5px;
+}
+@media screen and (max-width: 768px) {
+    .navMenu{
+        position: absolute;
+        top: 6rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(225, 225, 225);
+        right: -50%;
+        transform: translateX(50%);
+        width: 70%;
+        padding: 1.5rem;
+        border-radius: 10px;
+        border: 2px solid rgb(187, 186, 186);
+    }
+    .menuItems{
+        display: flex;
+        flex-direction: column;
+    }
+    .navTab{
+        display: none;
+    }
+    .hamIcon{
+        color: black;
+        font-size: 30px;
+    }
+    .showNavBar{
+        right: 50%;
+        transition: .4s ease-in-out
+    }
+    .hamburger{
+        display: flex;
+    }
+
+    .videoBanner{
+        width: 90%;
+        height: 25vh;
+    }
+    .video{
+        border-radius: 8rem;
+    }
+    
+    .searchContainer{
+        width: 80%;
+    }
+    .seatCategory{
+        flex-direction: column;
+        width: 95%;
+        border-radius: 1rem;
+
+        gap: 10px;
+        padding: 1rem 0;
+    }
+
+    .checkOptions{
+        flex-direction: column;
+        width: 90%;
+        gap: 0.7rem;
+        padding: 1rem;
+        
+    }
+    .checkContainer{
+        gap: 0.5rem;
+    }
+    .info2{
+        flex-direction: column; 
+        gap: 3rem;
+    }
+    .supportHeading{
+        flex-direction: column;
+        gap: 1rem;
+        width: 90%;
+        padding: .5rem;
+    }
+    .supportContent{
+        flex-direction: column;
+    }
+    .lounge{
+        flex-direction: column;
+        gap: 3rem;
+        padding-bottom: 3rem;
+
+    }
+    .travellersContainer{
+        flex-direction: column;
+    }
+    .travelCard{
+    height: 300px;
+    width: 220px;
+
+    
+}
+
+    .emailGroup{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .email{
+        width: 280px;
+
+    }
+    .footer{
+        flex-direction: column;
+        gap: 0.4rem;
+
+    }
+    
+   
+
+}
+
+
+

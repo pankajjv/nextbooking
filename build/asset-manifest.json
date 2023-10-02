@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.87ef350c.css",
+    "main.js": "/static/js/main.4bdbb648.js",
+    "static/media/mountains.mp4": "/static/media/mountains.7246cf118f5383f28586.mp4",
+    "static/media/crew2.jpg": "/static/media/crew2.248027b4663b12e7b218.jpg",
+    "static/media/crew3.avif": "/static/media/crew3.298477aaf7ae0ad24742.avif",
+    "static/media/fllightsss.jpg": "/static/media/fllightsss.98271dc21566fb13a65d.jpg",
+    "static/media/london.webp": "/static/media/london.7243def0f55ab5d3d4be.webp",
+    "static/media/newzeland.jpeg": "/static/media/newzeland.0f50a8219645d07c1263.jpeg",
+    "static/media/john-cena-mc-220118-00b80f.webp": "/static/media/john-cena-mc-220118-00b80f.336813f88674f1334194.webp",
+    "static/media/Virat-Kohli-1.jpg": "/static/media/Virat-Kohli-1.b3082b3c5aa16f7e2981.jpg",
+    "static/media/china.jpeg": "/static/media/china.74df063ad636c86271be.jpeg",
+    "index.html": "/index.html",
+    "main.87ef350c.css.map": "/static/css/main.87ef350c.css.map",
+    "main.4bdbb648.js.map": "/static/js/main.4bdbb648.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87ef350c.css",
+    "static/js/main.4bdbb648.js"
+  ]
+}
